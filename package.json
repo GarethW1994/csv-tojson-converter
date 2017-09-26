@@ -1,0 +1,20 @@
+{
+  "name": "csv-tojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./outdir/index.js",
+  "scripts": {
+    "ts": "tsc --w",
+    "server": "nodemon ./outdir/index.js",
+    "start": "tsc && node ./outdir/index.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/csvtojson": "^1.1.4",
+    "csvtojson": "^1.1.7",
+    "express": "^4.15.5",
+    "morgan": "^1.8.2"
+  }
+}
